@@ -1,0 +1,2 @@
+traqtori = "gashjhgud"
+print(traqtori)

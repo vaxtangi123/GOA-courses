@@ -1,33 +1,33 @@
-# #homework1
+#homework1
 
-# def check_password():
-#     correct_password = "password123"
-#     while True:
-#         password = input("Enter the password: ")
-#         if password == correct_password:
-#             print("Correct password! Access granted.")
-#             break
-#         else:
-#             print("Incorrect password. Please try again.")
+def check_password():
+    correct_password = "password123"
+    while True:
+        password = input("Enter the password: ")
+        if password == correct_password:
+            print("Correct password! Access granted.")
+            break
+        else:
+            print("Incorrect password. Please try again.")
 
-# check_password()
+check_password()
 
-# #homework2
+#homework2
 
-# def countdown():
-#     try:
-#         num = int(input("Enter a number to start the countdown: "))
-#         if num <= 0:
-#             print("Please enter a positive number.")
-#         else:
-#             print("Countdown starting from", num)
-#             while num > 0:
-#                 print(num)
-#                 num -= 1
-#     except ValueError:
-#         print("Invalid input. Please enter a valid number.")
+def countdown():
+    try:
+        num = int(input("Enter a number to start the countdown: "))
+        if num <= 0:
+            print("Please enter a positive number.")
+        else:
+            print("Countdown starting from", num)
+            while num > 0:
+                print(num)
+                num -= 1
+    except ValueError:
+        print("Invalid input. Please enter a valid number.")
 
-# countdown()
+countdown()
 
 #homework3
 
